@@ -16,7 +16,7 @@ Avaliar se modelos baseados em árvore superam a Regressão Logística em poder 
 3. Análise exploratória (EDA)
 4. Pré-processamento (pipeline `scikit-learn`)
 5. Modelagem: baseline + candidatos (Logistic Regression, Random Forest, Gradient Boosting, XGBoost, LightGBM)
-6. Ablação: efeito de variáveis contínuas vs. faixas categóricas por família de modelo
+6. Comparação: efeito de variáveis contínuas vs. faixas categóricas por tipos de modelo
 7. Otimização de hiperparâmetros (`RandomizedSearchCV`)
 8. Avaliação final (ROC-AUC, KS, PR-AUC, matriz de confusão, threshold)
 9. Explicabilidade (SHAP): importância global e explicações locais
